@@ -37,6 +37,25 @@
               android:id="@+id/iv_name"
               android:textSize="18sp"
               android:layout_toRightOf="@id/iv_checked"/>
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_alignParentRight="true">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="18"
+                  android:textColor="@android:color/holo_red_light"
+                  android:textSize="20sp"
+                  android:textStyle="bold"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="min"
+                  android:layout_marginLeft="2sp"
+                  />
+          </LinearLayout>
           <FrameLayout
               android:layout_width="match_parent"
               android:layout_height="9dp"
@@ -94,7 +113,7 @@
               <ImageView
                   android:layout_width="20dp"
                   android:layout_height="20dp"
-                  android:background="@drawable/commentborder"/>
+                  android:background="@drawable/commentgreen"/>
           </LinearLayout>
       </RelativeLayout>
   </LinearLayout>
@@ -211,6 +230,25 @@
                 android:background="@drawable/checkedgreen"
                 android:id="@+id/iv_checkedItem3"
                 android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="min"
+                    android:layout_marginLeft="2sp"
+                    />
+            </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -280,4 +318,5 @@
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>
+
 </LinearLayout>
