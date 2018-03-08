@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -238,8 +239,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="18"
-                    android:textColor="@android:color/holo_red_light"
+                    android:text="2"
+                    android:textColor="@color/yellow"
                     android:textSize="20sp"
                     android:textStyle="bold"/>
                 <TextView
@@ -306,7 +307,7 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:background="@drawable/eyeborder"/>
+                    android:background="@drawable/eyegreen"/>
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
